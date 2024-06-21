@@ -19,8 +19,15 @@
     <h1>Turbo</h1>
   </header>
   <main>
-    <h2>About</h2>
-    <p>My name is Daz</p>
+    <h2>Gallery</h2>
+    <turbo-frame id="picture">
+        <img src="images/ocean.jpeg" alt="Ocean" width="500" height="400">
+    </turbo-frame>
+    <nav>
+      <a href="/frames/ocean.html" data-turbo-frame="picture">Ocean</a>
+      <a href="/frames/mountains.html" data-turbo-frame="picture">Mountains</a>
+      <a href="/frames/forest.html" data-turbo-frame="picture">Forest</a>
+    </nav> 
   </main>
   <footer>
     Run <code>npx http-server</code> to start server.
