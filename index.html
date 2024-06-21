@@ -11,27 +11,21 @@
 <body>
   <header>
     <nav>
-      <a href="/" data-turbo-frame="content">
-        Home
-      </a>
-      <a href="/contact.html" data-turbo-frame="content">
-        Contact
-      </a>
-      <a href="/about.html" data-turbo-frame="content">
-        About
-      </a>
+        <a href="/">Home</a>
+        <a href="/contact">Contact</a>
+        <a href="/about">About</a>
+        <a href="/pics">Pics</a>
      </nav>
 
     <h1>Turbo</h1>
   </header>
   <main>
-    <turbo-frame id="content">
-      <h2>Home</h2>
-      <p>Hello World!</p>
-    </turbo-frame>
+    <h2>Home</h2>
+    <p>Hello World!</p>
   </main>
   <footer>
-    An experiment in using Turbo and Stimulus without Rails or a server.
+    Run <code>npx http-server</code> to start server.
+    Go to "localhost:8080" to see homepage
   </footer>
 </body>
 </html>
